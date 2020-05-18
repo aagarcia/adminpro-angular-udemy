@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-4">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Temas</h4>
+                <hr>
+                <div class="r-panel-body">
+                    <ul id="themecolors" class="m-t-20">
+                        <li><b>Con el sidebar claro</b></li>
+                        <li><a #default (click)="cambiarColor(default.getAttribute('data-theme'), default)" data-theme="default" class="selector default-theme">1</a></li>
+                        <li><a #green (click)="cambiarColor(green.getAttribute('data-theme'), green)" data-theme="green" class="selector green-theme">2</a></li>
+                        <li><a #red (click)="cambiarColor(red.getAttribute('data-theme'), red)" data-theme="red" class="selector red-theme">3</a></li>
+                        <li><a #blue (click)="cambiarColor(blue.getAttribute('data-theme'), blue)" data-theme="blue" class="selector blue-theme">4</a></li>
+                        <li><a #purple (click)="cambiarColor(purple.getAttribute('data-theme'), purple)" data-theme="purple" class="selector purple-theme">5</a></li>
+                        <li><a #megna (click)="cambiarColor(megna.getAttribute('data-theme'), megna)" data-theme="megna" class="selector megna-theme">6</a></li>
+
+                        <li class="d-block m-t-30"><b>Con el sidebar oscuro</b></li>
+                        <li><a #defaultD (click)="cambiarColor(defaultD.getAttribute('data-theme'), defaultD)" data-theme="default-dark" class="selector default-dark-theme">7</a></li>
+                        <li><a #greenD (click)="cambiarColor(greenD.getAttribute('data-theme'), greenD)" data-theme="green-dark" class="selector green-dark-theme">8</a></li>
+                        <li><a #redD (click)="cambiarColor(redD.getAttribute('data-theme'), redD)" data-theme="red-dark" class="selector red-dark-theme">9</a></li>
+                        <li><a #blueD (click)="cambiarColor(blueD.getAttribute('data-theme'), blueD)" data-theme="blue-dark" class="selector blue-dark-theme">10</a></li>
+                        <li><a #purpleD (click)="cambiarColor(purpleD.getAttribute('data-theme'), purpleD)" data-theme="purple-dark" class="selector purple-dark-theme">11</a></li>
+                        <li><a #megnaD (click)="cambiarColor(megnaD.getAttribute('data-theme'), megnaD)" data-theme="megna-dark" class="selector megna-dark-theme">12</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
